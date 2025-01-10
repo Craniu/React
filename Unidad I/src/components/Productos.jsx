@@ -1,12 +1,10 @@
-import Card from './Card'
 
 const Productos = ({titulo, precio}) => {
   return (
-    <div className="productos">
-        <h1>Productos</h1>
-        <h1>{titulo}</h1>
+    <div className="productos m-2">
+        <h2>{titulo}</h2>
         <h3>Precio: {precio}</h3>
-        <Card />
+
     </div>
   )
 }

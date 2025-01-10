@@ -1,7 +1,6 @@
-import './Boton.css'
 const Boton = () => {
   return (
-    <div>Boton</div>
+    <button className='btn btn-success m-1'>Comprar</button>
   )
 }
 

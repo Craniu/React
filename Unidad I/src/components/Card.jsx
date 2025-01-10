@@ -1,8 +1,14 @@
+import Boton from './Boton'
+import Productos from './Productos'
+
 const Card = () => {
 
     return (
-
-        <h1>Card</h1>
+        <div className='card'>
+        <h2>Card</h2>
+        <Productos titulo='Note' precio='1000' />
+        <Boton />
+        </div>
     )
 }
 
