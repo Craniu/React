@@ -1,8 +1,12 @@
+import Tareas from "./components/Tareas"
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <div>App</div>
+      <Tareas />
+    </>
   )
 }
 
